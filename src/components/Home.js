@@ -8,6 +8,7 @@ const Home = () => {
       className="home container"
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
+      transition={{ delay: 1.5, duration: 1.5 }}
     >
       <h2>
         Welcome to Pizza Joint
